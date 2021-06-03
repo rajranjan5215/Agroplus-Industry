@@ -4,6 +4,4 @@ It is a well responsive site i.e.,the website fits multiple screen sizes.
 HTML5, CSS3 & JavaScript is used.
 
 # Screenshots
-![alt text](https://github.com/rajranjan5215/Agroplus-Industry/main/screenshots/1.PNG?raw=true)
-![alt text](https://github.com/rajranjan5215/Agroplus-Industry/main/screenshots/2.PNG?raw=true)
-![alt text](https://github.com/rajranjan5215/Agroplus-Industry/main/screenshots/3.PNG?raw=true)
+Screenshots are added in the above folders.
