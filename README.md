@@ -6,11 +6,11 @@ HTML5, CSS3 & JavaScript is used.
 
 
 # For New Comers
-This project will help you to get through the basics to a bit advance form of Frontend Web Development.
-You can check out articles (Documentations) from W3 Schools.
-For HTML - https://www.w3schools.com/html/
-For CSS  - https://www.w3schools.com/css/default.asp
-For JS   - https://www.w3schools.com/js/default.asp
+This project will help you to get through the basics to a bit advance form of Frontend Web Development.<br />
+You can check out articles (Documentations) from W3 Schools.<br />
+For HTML - https://www.w3schools.com/html/ <br />
+For CSS  - https://www.w3schools.com/css/default.asp <br />
+For JS   - https://www.w3schools.com/js/default.asp  <br />
 
 
 # Screenshots
