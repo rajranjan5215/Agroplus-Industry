@@ -1,0 +1,301 @@
+body{
+	background-image: url(../images/body-bg.gif);
+	margin:0;
+	padding: 0;
+	font:20px/18px arial;
+	position: relative;
+}
+main{
+	background-image: url(../images/main-bg.jpg);
+	color:white;
+	background-repeat: repeat-x; 
+	width: 100%;
+	height: auto;
+ 
+}
+header{
+    width: 70%;
+    height: 10%;
+    margin: 0px auto;
+    padding: 80px 0 0 0;
+   background-size: contain;
+    z-index: 2;
+    position: relative;
+
+}
+
+
+.inner{
+	background-image: url(../images/header-bg.png);
+	height:150px;
+	z-index: 2;
+}
+
+
+ol li{
+	display: inline-flex;
+	padding: 0 25px;
+}
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.logo{
+	float: left;
+	padding: 40px 0px 40px 50px;
+}
+.menu{
+	float: right;
+	padding: 40px 20px;
+
+}
+.container{
+	background-image: url(../images/body-bg.gif);
+	width: 70%;
+	margin: 0px auto;
+	justify-content: center;
+}
+.first{
+	font:15px/18px arial;
+	color: grey;
+}
+.first h1 ,.second h1{
+	margin: 0px auto;
+	text-align: center;
+	padding: 30px;
+	font: 45px/45px oswald;
+	color: red;
+	font-weight: bold;
+}
+.first h2 ,.second h2{
+	font:20px/20px arial;
+
+	color: yellow;
+	margin: 5px;
+}
+.first div{
+	width: 30%;
+	display: inline-flex;
+	padding: 10px;
+}
+.first div div{
+	width: 100%;
+	display: block;
+	padding-left: 10px;
+}
+.first div div img{
+	height: 100%;
+	width: 100%;
+}
+.first .readmore{
+	font:15px/15px arial;
+	text-align: center;
+}
+.first .tech{
+	display: block;
+	width: 50%;
+	margin: 0px;
+}
+.first .tech div{
+	display: inline-flex;
+}
+.first .tech div div {
+	border-bottom: 2px solid;
+}
+.first .tech div div img{
+	height: 150px;
+	width: 200px%;
+}
+.second{
+	width: 50%;
+	margin: 0px auto;
+	justify-content: center;
+	font: 15px/15px arial;
+	color: grey;
+	background-color: #292929;
+	padding:30px;
+	border-radius: 20px;
+}
+
+footer{
+	width: 80%;
+	justify-content: center;
+	margin:0px auto;
+	text-align: center;
+	
+}
+.three{
+	display: flex;
+	font:15px/20px arial;
+	color: grey;
+	margin-bottom: 200px;
+}
+.three .date{
+	width: 20%;
+	margin: 0px auto;
+	padding: 50px 10px 50px 60px;
+}
+.three .date strong{
+	font:40px/45px arial;
+	color: red;
+}
+.three .more{
+	width: 50%;
+	margin: 0px auto;
+}
+.three .more .one{
+	display: inline-flex;
+	padding: 10px;
+}
+.three .more .one ul {
+	list-style: none;
+	padding: 0px 0px;
+}
+.three .more .one ul h2{
+
+	font:30px/30px arial;
+	font-weight: bold;
+	color:red;
+	margin: 10px auto;
+
+}
+.three .mediahandle{
+	width: 10%;
+	margin: 0px auto;
+	padding: 50px 80px 30px 20px;
+}
+.three .mediahandle .mediaimages img{
+	height: 40px;
+	width: 40px;
+	background-color: grey;
+	
+}
+
+@media screen and (max-width: 1200px){
+	main{
+		background-image: none;
+	}
+	main header
+	{	
+		width: 100%;
+		height: 150px;
+		padding: 0px;
+		margin: 0px 0px 10px 0px;
+	}
+	header .slider{
+		display: none;
+	}
+	header .inner{
+		background-image: linear-gradient(to bottom, grey,#292929);
+		height: 100px;
+		justify-content: center;
+		text-align: center;
+	}
+	header .inner div{
+
+		display: inline-block;
+		padding: 30px 0px 30px 30px;
+		margin: 0px auto;
+	}
+
+
+	ol li
+	{
+		display: inline;
+		padding: 0 10px;
+		position: relative;
+	}
+	.container{
+		width: 100%;
+	}
+	.first div
+	{
+		width: 30%;
+		display: inline-flex;
+		flex-wrap: wrap;
+		padding: 10px;
+	}
+	.first div div
+	{
+		width: 90%;
+		display: block;
+		padding-left: 10px;
+	}
+	.first div div img
+	{
+		height: 100%;
+		width: 100%;
+	}
+	.first .tech{
+		width: 80%;
+		margin: 0px auto;
+	}
+	.first .tech div
+	{
+
+		margin: 0px auto;
+	}
+	
+
+	.first .tech div div 
+	{
+		border-bottom: none;
+		display: inline-flex;
+	}
+	.first .tech div div img
+	{
+		height: 150px;
+		width: 200px;
+	}
+
+}
+
+@media screen and (max-width: 870px){
+
+	.inner{
+		display: block;
+		margin: 0px auto;	
+		}
+	.inner .menu{
+		padding: 0px 0px;
+		height: 150px;
+	}
+	.menu ol li{
+		float: none;
+		position:relative;
+		display: inline-block;
+		padding: 10px;
+		text-align: left;
+		font: 20px/20px oswald;
+		background-color: grey;
+		border-radius: 50%;
+		margin: 30px;
+	}
+	.container .first{
+		margin-top: 200px;
+	}
+	
+	.images table img{
+		width: 70%;
+	padding: 0px 20px;
+}
+.second{
+	display: block;
+}
+}
+
+li a:hover{
+	transform: scale(1.1);
+	color: red;
+	}
+
+.first h2:hover{
+	transform: scale(1.1);
+}
+.first div div p:hover{
+	color: yellow;
+	text-decoration: underline;
+
+	}

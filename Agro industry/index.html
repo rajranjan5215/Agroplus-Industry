@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agro Industry</title>
+	<meta charset="utf-8" >
+	<link rel="stylesheet" type="text/css" href="css\grid.css"></li>
+	<link rel="stylesheet" type="text/css" href="css\style.css"></li>
+</head>
+<body>
+	<main>
+		<header >
+		   	<div class="inner">
+		   		<div class="logo">
+		       <img src="F:\web-D 2.0\Udemy\Agro industry\images\logo.png">
+		       </div>
+		       <div class="menu">
+		   		<ol>
+		   			<li><a href="index.html">Home</a></li>
+		   			<li><a href="product.html">Product</a></li>
+		   			<li><a href="technology.html">Technology</a></li>
+		   			<li><a href="#">Contact</a></li>
+		   			<li><a href="#">Pricing</a></li>
+		   		</ol>
+		   	</div>
+		   	</div>
+		   	
+		   	<div class="slider">
+		   		<div class="left" id="left">
+		   			<img onclick="prev(this)" src="images\slider-prev.png">
+		   			
+		   		</div>
+		   		<div class="gallery" id="gallery">
+		   			
+		   		</div>
+		   		<div class="right" id="right">
+		   			<img  onclick="next(this)" src="images\slider-next.png">
+		   		</div>
+		   	</div>
+
+		</header>
+		<section>
+			<div class="container">
+				<div class="first">
+					<div class="whoweare">
+							<h1>Agroplus</h1><br><br>
+							<p>AgroPlus is one of the top food company in the world. It supply the food in all over the world Angro plus created by dummy.This company made in 1994 and it is created by dummy. Now it have 65 branches in all over the world.Angro plus You can get the food of this from any shop. It also take the online order for delivering food.</p>
+							<strong><a href="#"> Read More >>></a></strong>
+					</div>
+					<div class="images">
+						<h1>Our Products</h1><br><br>
+						<table>
+						<tr>
+							<th><img src="images\page1-img1.jpg"></th>
+							<th><img src="images\page1-img2.jpg"></th>
+							<th><img src="images\page1-img3.jpg"></th>
+							<th><img src="images\page1-img4.jpg"></th>
+						</tr>
+						<tr>
+							<td> <h2>Tomato</h2><p>This is awesome dvsd vegetable you should eat it right now</p> </td>
+							<td> <h2>Brinjal</h2><p>This is awesome dvsd vegetable you should eat it right now </p></td>
+							<td><h2>Cabbage</h2> <p>This is awesome dvsd vegetable you should eat it right now </p></td>
+							<td> <h2>Potato</h2><p>This is awesome dvsd vegetable you should eat it right now</p> </td>
+							
+						</tr>
+
+						</table>
+						<hr>
+						<p><a href="#">Read more >>></a></p>
+						
+					</div>
+					
+			    </div>
+			    	
+				<div class="second">
+					<div class="banner">
+			     		<h1>Need a useful advice from breeder?</h1><br>
+						<h2>WE WANT TO RAISE YOUR CROPS & LIVESTOCK!</h2>
+						 <q> This website has several pages: Home, Products, Technology, Pricing, Contacts Vivamus hendrerit mauris ut dui. gravida ut viverra lectus tincidunt. Cras mattis tempor eros nec tristique. Sed sed felis arcu, vel vehicula augue. Maecenas faucibus sagittis cursus. Fusce tincidunt, tellus eget tristique cursus, orci mi iaculis sem. </q><br>
+						<strong>- John smith(breeder)</strong>
+					</div>
+
+					<div class="program">
+						<h1>Our Programs</h1>
+						<ul>
+							<li><a href="#"> Bio techno</a><hr></li>
+							<li><a href="#"> Bio techno</a><hr></li>
+							<li><a href="#"> Bio techno</a><hr></li>
+							<li><a href="#"> Bio techno</a><hr></li>
+							<li><a href="#"> Bio techno</a><hr></li>
+						</ul>
+						<p><a href="#">Read more >>></a></p>
+					</div>
+
+			    </div>
+			</div>
+		</section>
+		<hr width="50%">
+		<footer>
+			<div class="three">
+				<div class="date">
+			  		 <p>©2016<strong>Agro-Plus</strong><br>
+					 we serve Quality food by <a href="#">angroplus.com</a>
+					 </p>
+				</div >
+				<div class="more">
+					<div class="one">
+						
+						<ul >
+							<li><h2>Archives</h2></li>
+							<li>ABCD</li>
+							<li>ABCD</li>
+							<li>ABCD</li>
+							<li>ABCD</li>
+						</ul>
+					</div>
+					<div class="one">
+						
+						<ul>
+							<li><h2>Links</h2></li>
+							<li>ABCD</li>
+							<li>ABCD</li>
+							<li>ABCD</li>
+							<li>ABCD</li>
+						</ul>
+					</div>
+					<div class="one">
+						
+						<ul>
+ 							<h2>Support</h2>
+							<li>ABCD</li>
+							<li>ABCD</li>
+							<li>ABCD</li>
+							<li>ABCD</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mediahandle">
+					<div class="mediaimages">
+					<a href="#"><img src="images\social-icon-1.png"></a><br>
+					<a href="#"><img src="images\social-icon-2.png"></a><br>
+					<a href="#"><img src="images\social-icon-3.png"></a><br>
+				</div>
+				</div>
+			</div>
+		</footer>
+	</main>
+
+</body>
+<script type="text/javascript">
+       					var count=0;
+       					var cou= 0;
+		   				function prev(element){
+		   					
+		   					var galler=["url(images/slide-1.jpg)","url(images/slide-2.jpg)","url(images/slide-3.jpg)"];
+		   					if ( count==0){
+		   						count=1;
+		   						return (document.getElementById("gallery").style.backgroundImage=galler[0]);
+		   						
+		   								 }
+
+		   					if (count==1){
+
+		   						count=2;
+		   						return(document.getElementById("gallery").style.backgroundImage=galler[1]);	
+		   								}
+		   					if(count==2){
+		   						count=0;
+		   						return(document.getElementById("gallery").style.backgroundImage=galler[2]);
+		   					}
+		   				}
+		   				function next(element){
+		   					var galler=["url(images/slide-1.jpg)","url(images/slide-2.jpg)","url(images/slide-3.jpg)"];
+		   					if ( cou==0){
+		   						cou=1;
+		   						return (document.getElementById("gallery").style.backgroundImage=galler[2]);
+		   						
+		   								 }
+
+		   					if (cou==1){
+
+		   						cou=2;
+		   						return(document.getElementById("gallery").style.backgroundImage=galler[1]);	
+		   								}
+		   					if(cou==2){
+		   						cou=0;
+		   						return(document.getElementById("gallery").style.backgroundImage=galler[0]);
+		   					}
+		   				}
+		   				
+</script>
+
+</html>
